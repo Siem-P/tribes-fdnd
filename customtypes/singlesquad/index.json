@@ -1,0 +1,24 @@
+{
+	"id": "singlesquad",
+	"label": "SingleSquad",
+	"format": "custom",
+	"repeatable": true,
+	"status": true,
+	"json": {
+		"Main": {
+			"uid": {
+				"config": {
+					"label": "UID"
+				},
+				"type": "UID"
+			},
+			"squad_name": {
+				"type": "Text",
+				"config": {
+					"label": "SquadName",
+					"placeholder": ""
+				}
+			}
+		}
+	}
+}

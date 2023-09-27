@@ -1,0 +1,26 @@
+{
+  "id": "squad_info",
+  "type": "SharedSlice",
+  "name": "SquadInfo",
+  "description": "SquadInfo",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {},
+      "items": {
+        "squad_relation": {
+          "type": "Link",
+          "config": {
+            "label": "squadRelation",
+            "select": "document"
+          }
+        }
+      }
+    }
+  ]
+}

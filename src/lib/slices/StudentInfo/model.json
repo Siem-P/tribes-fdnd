@@ -1,0 +1,34 @@
+{
+	"id": "leerling_info",
+	"type": "SharedSlice",
+	"name": "StudentInfo",
+	"description": "LeerlingInfo",
+	"variations": [
+		{
+			"id": "default",
+			"name": "Default",
+			"docURL": "...",
+			"version": "initial",
+			"description": "Default",
+			"imageUrl": "",
+			"primary": {
+				"student_name": {
+					"type": "Text",
+					"config": {
+						"label": "studentName",
+						"placeholder": ""
+					}
+				}
+			},
+			"items": {
+				"student_relation": {
+					"type": "Link",
+					"config": {
+						"label": "studentRelation",
+						"select": "document"
+					}
+				}
+			}
+		}
+	]
+}

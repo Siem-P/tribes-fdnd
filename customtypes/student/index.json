@@ -1,0 +1,47 @@
+{
+	"id": "student",
+	"label": "SingleStudent",
+	"format": "custom",
+	"repeatable": true,
+	"status": true,
+	"json": {
+		"Main": {
+			"uid": {
+				"config": {
+					"label": "UID"
+				},
+				"type": "UID"
+			},
+			"student_name": {
+				"type": "Text",
+				"config": {
+					"label": "studentName",
+					"placeholder": ""
+				}
+			},
+			"github_visual": {
+				"type": "Link",
+				"config": {
+					"label": "github_visual",
+					"placeholder": "",
+					"select": null
+				}
+			},
+			"github_handle": {
+				"type": "Link",
+				"config": {
+					"label": "githubHandle",
+					"placeholder": "",
+					"select": null
+				}
+			},
+			"squad": {
+				"type": "Link",
+				"config": {
+					"label": "squad",
+					"select": "document"
+				}
+			}
+		}
+	}
+}
